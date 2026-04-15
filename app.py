@@ -25,7 +25,7 @@ def generate_quiz(topic):
     return json.loads(clean_json)
 
 # --- GIAO DIỆN APP ---
-st.set_page_config(page_title="App Toán Thầy Hùng", layout="wide")
+st.set_page_config(page_title="App TRẮC NGHIỆM TOÁN", layout="wide")
 st.title("🎓 Hệ Thống Tạo Bài Tập Toán Tự Động")
 
 if "quiz_data" not in st.session_state:
